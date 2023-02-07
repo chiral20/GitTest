@@ -1,0 +1,10 @@
+main 브랜치에서 hotfix를 새로운 브랜치로 만들었음
+
+PS D:\git\gittest> git checkout -b hotfix
+Switched to a new branch 'hotfix'
+PS D:\git\gittest> git log --oneline --decorate --graph --all
+* 94d8197 (iss53) commit index.txt on iss53
+* 42e995e (HEAD -> hotfix, main) made other changes on main branch
+| * 828dc6f (testing) made a change
+|/
+* c264ca6 (tag: v1.5-lw, tag: v1.5, tag: v1.4) First file
