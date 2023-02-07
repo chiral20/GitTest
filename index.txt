@@ -1,0 +1,7 @@
+새로 만든 브랜치(iss53)를 check out해서 편집함
+
+PS D:\git\gittest> git log --oneline --decorate --graph --all
+* 42e995e (HEAD -> iss53, main) made other changes on main branch
+| * 828dc6f (testing) made a change
+|/
+* c264ca6 (tag: v1.5-lw, tag: v1.5, tag: v1.4) First file
